@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Ubuntu:wght@500&display=swap');
+
+body {
+    margin: 0;
+    background-color: gainsboro;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 0 15px 20px;
+    color: /*lightslate*/gray;
+    font-size: 25px;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 30px 0 30px 0;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 30px 0 30px 0;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+    border-radius: 20px;
+}
+
+header {
+    padding: 3% 10% 2.5% 10%;
+}
+
+main {
+    padding: 2.5% 10% 2.5% 10%;
+}
+
+.subject {
+    padding: 20px 0 20px 0;
+}
+
+footer {
+    padding: 2.5% 10% 3% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img-container {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.text-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
