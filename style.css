@@ -109,7 +109,7 @@ footer {
 }
 
 .links {
-    width: 15%;
+    width: 250px;
     display: flex;
     justify-content: space-between;
 }
